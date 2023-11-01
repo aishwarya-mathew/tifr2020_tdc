@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="hybrid_counter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="hybrid_counter_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="695057300fs"></ZoomStartTime>
+      <ZoomEndTime time="695162601fs"></ZoomEndTime>
+      <Cursor1Time time="695111400fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/hybrid_counter_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/fine_out1" type="array">
+      <obj_property name="ElementShortName">fine_out1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">fine_out1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/fine_out2" type="array">
+      <obj_property name="ElementShortName">fine_out2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">fine_out2[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/coarse_out" type="array">
+      <obj_property name="ElementShortName">coarse_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">coarse_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/mmcm_locked" type="logic">
+      <obj_property name="ElementShortName">mmcm_locked</obj_property>
+      <obj_property name="ObjectShortName">mmcm_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/count_done" type="logic">
+      <obj_property name="ElementShortName">count_done</obj_property>
+      <obj_property name="ObjectShortName">count_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/uart_txd" type="logic">
+      <obj_property name="ElementShortName">uart_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/uart_rx_dv" type="logic">
+      <obj_property name="ElementShortName">uart_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/uart_rx_d" type="array">
+      <obj_property name="ElementShortName">uart_rx_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/counter" type="array">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/op_fc1" type="array">
+      <obj_property name="ElementShortName">op_fc1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op_fc1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/op_fc2" type="array">
+      <obj_property name="ElementShortName">op_fc2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op_fc2[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/op_cc" type="array">
+      <obj_property name="ElementShortName">op_cc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_cc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/fifo_module/din" type="array">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/fifo_module/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/fifo_module/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/dout" type="array">
+      <obj_property name="ElementShortName">dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus217" type="vbus">
+      <obj_property name="label">cc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus209" type="vbus">
+      <obj_property name="label">fc2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus201" type="vbus">
+      <obj_property name="label">fc1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus192" type="vbus">
+      <obj_property name="label">counter_latch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus183" type="vbus">
+      <obj_property name="label">marker</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/hybrid_counter_tb/top/dout[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/TXD" type="logic">
+      <obj_property name="ElementShortName">TXD</obj_property>
+      <obj_property name="ObjectShortName">TXD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/done_uart" type="logic">
+      <obj_property name="ElementShortName">done_uart</obj_property>
+      <obj_property name="ObjectShortName">done_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/transmit" type="logic">
+      <obj_property name="ElementShortName">transmit</obj_property>
+      <obj_property name="ObjectShortName">transmit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/wr_fifo" type="logic">
+      <obj_property name="ElementShortName">wr_fifo</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/flag1" type="logic">
+      <obj_property name="ElementShortName">flag1</obj_property>
+      <obj_property name="ObjectShortName">flag1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/flag2" type="logic">
+      <obj_property name="ElementShortName">flag2</obj_property>
+      <obj_property name="ObjectShortName">flag2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/flag3" type="logic">
+      <obj_property name="ElementShortName">flag3</obj_property>
+      <obj_property name="ObjectShortName">flag3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/hybrid_counter/clk_out1" type="logic">
+      <obj_property name="ElementShortName">clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clk_out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/hybrid_counter/done_fc1" type="logic">
+      <obj_property name="ElementShortName">done_fc1</obj_property>
+      <obj_property name="ObjectShortName">done_fc1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/hybrid_counter/done_fc2" type="logic">
+      <obj_property name="ElementShortName">done_fc2</obj_property>
+      <obj_property name="ObjectShortName">done_fc2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/hybrid_counter/done_cc" type="logic">
+      <obj_property name="ElementShortName">done_cc</obj_property>
+      <obj_property name="ObjectShortName">done_cc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/sender/transmit" type="logic">
+      <obj_property name="ElementShortName">transmit</obj_property>
+      <obj_property name="ObjectShortName">transmit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/sender/baudrate_counter" type="array">
+      <obj_property name="ElementShortName">baudrate_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">baudrate_counter[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/sender/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[8:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/sender/byte_counter" type="array">
+      <obj_property name="ElementShortName">byte_counter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_counter[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hybrid_counter_tb/top/sender/rst_transmit" type="logic">
+      <obj_property name="ElementShortName">rst_transmit</obj_property>
+      <obj_property name="ObjectShortName">rst_transmit</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  4 09:51:27 2021
+# Process ID: 11344
+# Current directory: B:/TIFR/Fun Gen Files/Vivado/function_generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7044 B:\TIFR\Fun Gen Files\Vivado\function_generator\function_generator.xpr
+# Log file: B:/TIFR/Fun Gen Files/Vivado/function_generator/vivado.log
+# Journal file: B:/TIFR/Fun Gen Files/Vivado/function_generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/ProgramsInstalled/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.902 ; gain = 0.000
+archive_project {B:/TIFR/Fun Gen Files/Vivado/function_generator.xpr.zip} -temp_dir {B:/TIFR/Fun Gen Files/Vivado/function_generator/.Xil/Vivado-11344-DELILAH} -force -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'B:/TIFR/Fun Gen Files/Vivado/function_generator/.Xil/Vivado-11344-DELILAH' for archiving project
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'B:/TIFR/Fun Gen Files/Vivado/function_generator/.Xil/Vivado-11344-DELILAH/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (B:/TIFR/Fun Gen Files/Vivado/function_generator.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  4 09:54:08 2021...

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tdc_CFF.srcs/sources_1/new/UART_RX.vhd" \
+"../../../../tdc_CFF.srcs/sources_1/new/hybrid_counter_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  4 09:51:27 2021
+# Process ID: 11344
+# Current directory: B:/TIFR/Fun Gen Files/Vivado/function_generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7044 B:\TIFR\Fun Gen Files\Vivado\function_generator\function_generator.xpr
+# Log file: B:/TIFR/Fun Gen Files/Vivado/function_generator/vivado.log
+# Journal file: B:/TIFR/Fun Gen Files/Vivado/function_generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.xpr}
+archive_project {B:/TIFR/Fun Gen Files/Vivado/function_generator.xpr.zip} -temp_dir {B:/TIFR/Fun Gen Files/Vivado/function_generator/.Xil/Vivado-11344-DELILAH} -force -include_config_settings

@@ -1,0 +1,96 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Aug 19 18:59:11 2021
+| Host         : DELILAH running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    18 |
+|    Minimum number of control sets                        |    18 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    18 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              29 |           15 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              45 |           14 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              97 |           25 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+----------------------------------------------------------------------------------------------+--------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |                                         Enable Signal                                        |        Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+----------------------------------------------------------------------------------------------+--------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG       | fifo_module/TXD2_out                                                                         |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out2 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out4 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out5 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out6 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out3 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out7 |                                                                                              |                                |                1 |              1 |         1.00 |
+|  mmcm1/inst/clk_out1 | mmcm1/inst/locked                                                                            |                                |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG       | sender/i                                                                                     | sender/byte_counter[6]_i_1_n_0 |                2 |              7 |         3.50 |
+|  mmcm1/inst/clk_out1 | uut_start/op_fc0                                                                             | delay_pulse/temp_reg           |                1 |              7 |         7.00 |
+|  clk_IBUF_BUFG       |                                                                                              |                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG       | fifo_module/TXD2_out                                                                         | sender/i                       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG       | fifo_module/transmit                                                                         | fifo_module/TXD2_out           |                4 |             14 |         3.50 |
+|  clk_IBUF_BUFG       | fifo_module/uut/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0] |                                |                6 |             20 |         3.33 |
+|  clk_IBUF_BUFG       | fifo_module/uut/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0] |                                |                6 |             20 |         3.33 |
+|  mmcm1/inst/clk_out1 |                                                                                              |                                |                5 |             22 |         4.40 |
+|  clk_IBUF_BUFG       | sender/i                                                                                     | sender/tracker[3]_i_1_n_0      |                8 |             29 |         3.63 |
+|  mmcm1/inst/clk_out1 | uut_start/state[31]_i_2_n_0                                                                  | delay_pulse/temp_reg           |                8 |             32 |         4.00 |
++----------------------+----------------------------------------------------------------------------------------------+--------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../fine_counter_testing.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../fine_counter_testing.srcs/sources_1/ip/clk_wiz_1" --include "../../../../../fine_counter_testing.srcs/sources_1/ip/clk_wiz_mmcm_0" --include "../../../../../fine_counter_testing.srcs/sources_1/ip/clk_wiz_mmcm_1" \
+"sim_time_impl.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/DFF.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/async_ip.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/delay_chain.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/fine_count.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/gate_pulse.v" \
+"../../../../../fine_counter_testing.srcs/sources_1/new/pulse_generator.v" \
+"../../../../../fine_counter_testing.srcs/sim_1/new/sim.v" \
+
+# Do not sort compile order
+nosort

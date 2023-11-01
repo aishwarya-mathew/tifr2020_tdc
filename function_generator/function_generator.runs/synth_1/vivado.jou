@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep  4 17:14:48 2021
+# Process ID: 10528
+# Current directory: B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.runs/synth_1
+# Command line: vivado.exe -log Function_Generator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Function_Generator.tcl
+# Log file: B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.runs/synth_1/Function_Generator.vds
+# Journal file: B:/TIFR/Fun Gen Files/Vivado/function_generator/function_generator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Function_Generator.tcl -notrace

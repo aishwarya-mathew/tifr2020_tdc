@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 20 00:34:03 2021
+# Process ID: 2596
+# Current directory: C:/Users/raghu/Downloads/tdc-fpga-project-main.tar/fpga-tdc/batch_2020_21/tdc_CFF.xpr/tdc_CFF/tdc_CFF.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/raghu/Downloads/tdc-fpga-project-main.tar/fpga-tdc/batch_2020_21/tdc_CFF.xpr/tdc_CFF/tdc_CFF.sim/sim_1/behav/xsim/xsim.dir/hybrid_counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/raghu/Downloads/tdc-fpga-project-main.tar/fpga-tdc/batch_2020_21/tdc_CFF.xpr/tdc_CFF/tdc_CFF.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/raghu/Downloads/tdc-fpga-project-main.tar/fpga-tdc/batch_2020_21/tdc_CFF.xpr/tdc_CFF/tdc_CFF.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/raghu/Downloads/tdc-fpga-project-main.tar/fpga-tdc/batch_2020_21/tdc_CFF.xpr/tdc_CFF/tdc_CFF.sim/sim_1/behav/xsim/xsim.dir/hybrid_counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace

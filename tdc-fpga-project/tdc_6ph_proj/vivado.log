@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Feb  5 17:44:59 2022
+# Process ID: 2068
+# Current directory: B:/TIFR/Gitlab/tdc-fpga-project/Final Project/tdc_6ph_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13632 B:\TIFR\Gitlab\tdc-fpga-project\Final Project\tdc_6ph_proj\tdc_CFF.xpr
+# Log file: B:/TIFR/Gitlab/tdc-fpga-project/Final Project/tdc_6ph_proj/vivado.log
+# Journal file: B:/TIFR/Gitlab/tdc-fpga-project/Final Project/tdc_6ph_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {B:/TIFR/Gitlab/tdc-fpga-project/Final Project/tdc_6ph_proj/tdc_CFF.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/raghu/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1688-ras-xps15/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/ProgramsInstalled/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_1' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a100tcsg324-3' used to customize the IP 'clk_wiz_1' do not match.
+open_project: Time (s): cpu = 00:00:51 ; elapsed = 00:00:29 . Memory (MB): peak = 1020.566 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  6 18:09:41 2022...
